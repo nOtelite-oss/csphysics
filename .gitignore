@@ -2,4 +2,6 @@
 .vscode
 bin
 obj
+C:\Users\nonot\Desktop\Code\csphysics\obj
 csphysics.csproj
+.gitignore
