@@ -9,8 +9,6 @@ namespace myproject
       Console.Write("Please enter threshold number: ");
       int maxNumber = int.Parse(Console.ReadLine());
 
-      int[] randomThinks = new int[1];
-
       int Fonk1(int a, int b)
       {
         int toplam = a + b;
