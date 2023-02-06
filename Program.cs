@@ -1,31 +1,14 @@
 ﻿using System;
 
-namespace myproject
+namespace csphysics
 {
   class Program
   {
     static void Main(string[] args)
     {
-      Console.Write("Please enter threshold number: ");
-      int maxNumber = int.Parse(Console.ReadLine());
+      Book book1 = new Book("Profesyonel Emirin Notlari", "Emir Topaloglu", 300, "Ga");
 
-      int Fonk1(int a, int b)
-      {
-        int toplam = a + b;
-
-        if ((toplam) > maxNumber)
-        {
-          Console.WriteLine(toplam);
-          return toplam;
-        }
-        else
-        {
-          Console.WriteLine(toplam);
-          return (Fonk1(b, toplam));
-        }
-      }
-      Fonk1(0, 1);
+      book1.Print();
     }
   }
 }
-
